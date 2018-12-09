@@ -5,11 +5,14 @@ body{
 }
 
 #header{
-        background-image: url(cat.jpg);
-        background-repeat: no-repeat ;
+        background:  skyblue url('cat.jpg') no-repeat fixed;
+        /*background-image: url(cat.jpg);*/     
+        /*background-repeat: no-repeat ;
+        
+        background-size: cover;
+        background-position: center;
+        /*background-attachment: fixed;*/
         height: 200px;
-        /*background-size: cover;*/
-        background-position: center
 }
 div,span{ background-color: greenyellow;}
 #top{background-color: skyblue;}
