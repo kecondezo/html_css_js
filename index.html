@@ -6,48 +6,28 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="table.css">
     <title> HTML Lessons</title>
+    <link rel="stylesheet" href="new.css">
 </head>
 
 <body>
     <header>
         <h1>Welcome to my Website</h1>
     </header>
-    <nav>
+    <nav class="highlight">
         <a href="index.html">Home</a> |
-        <a href="about.html">About</a>|
-        <a href="contact.html">contact</a>|
+        <a href="portfolio.html">Portfolio</a> |
+        <a href="about.html">About</a> |
+        <a href="contact.html">Contact</a> |
+        <a href="https://www.facebook.com" target="_blank">Facebook</a> |
     </nav>
     <section>
-        <p id="top">Did you know there is
-            <a href="#coolstuff">cool stuff </a>below .Hope You are enjoying the course</p>
-        <table>
-            <thead>
-                <tr>
-                    <th>Team</th>
-                    <th>Dates</th>
-                    <th>Totals</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Blue</td>
-                    <td rowspan="2">Mar10</td>
-                    <td>55</td>
-                </tr>
-                <tr>
-                    <td>Red</td>
-                    <td>80</td>
-                </tr>
-                <tr>
-                    <td colspan="2">Total</td>
-                    <td>135</td>
-                </tr>
-            </tbody>
-        </table>
-        <p>Look at someof this tags</p>
-        <br><br><br><br><br><br><br><br><br><br><br>
+        <p id="top">Did you know there <spam class="blue" >bottom is</spam>
+            <a href="#coolstuff">cool stuff </a>below .Hope You are
+            <span>enjoying</span> the course</p>
+        <div>Look at someof this tags</div>
         <h2 id="coolstuff">This content is way down here</h2>
-        <p> way down at the button <a href="#top">go back up</a></p>
+        <p> way down at the <span class="highlight red">bottom</span> <a href="#top">go back up</a></p>
+        <img src="cat.jpg">
     </section>
     <footer>
         Hope you are enjoying the course
