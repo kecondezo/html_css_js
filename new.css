@@ -1,3 +1,16 @@
+body{
+       /* background-color: red;*/
+       background-image: url(cat.jpg);
+       background-attachment: fixed;
+}
+
+#header{
+        background-image: url(cat.jpg);
+        background-repeat: no-repeat ;
+        height: 200px;
+        /*background-size: cover;*/
+        background-position: center
+}
 div,span{ background-color: greenyellow;}
 #top{background-color: skyblue;}
 .red{
