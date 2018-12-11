@@ -1,17 +1,12 @@
 body{
-       /* background-color: red;*/
-       background-image: url(cat.jpg);
-       background-attachment: fixed;
 }
 
 #header{
-        background:  skyblue url('cat.jpg') no-repeat fixed;
-        /*background-image: url(cat.jpg);*/     
-        /*background-repeat: no-repeat ;
-        
-        background-size: cover;
-        background-position: center;
-        /*background-attachment: fixed;*/
+        border-color: black;
+        border-width: 2px;
+        border-style: dashed;
+        border-left-color: red;
+        border-left-style: solid;
         height: 200px;
 }
 div,span{ background-color: greenyellow;}
