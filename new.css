@@ -1,4 +1,15 @@
-body{
+@import url('https://fonts.googleapis.com/css?family=Charmonman');
+body {
+        font-family: Charmonman, cursive; 
+}
+
+.lHeight{
+        line-height: 40px;
+}
+.container{
+        max-width: 1080px;
+        width: 90%;
+        margin: auto;
 }
 
 #header{
@@ -8,9 +19,17 @@ body{
         border-left-color: red;
         border-left-style: solid;
         height: 200px;
+        background-image: url('cat.jpg');
+}
+.tesText{ 
+     text-align: center;
+    text-shadow: black 9px -8px 10px;
 }
 div,span{ background-color: greenyellow;}
-#top{background-color: skyblue;}
+#top{
+        background-color: skyblue;
+        font: italic 30px bold fantasy ;
+}
 .red{
         color:#3c128c;
 }
@@ -20,4 +39,10 @@ div,span{ background-color: greenyellow;}
 
 .highlight{
         background-color: deeppink;
+}
+
+.nav {
+        padding: 10px;
+        color: white;
+        background-color: black;
 }
