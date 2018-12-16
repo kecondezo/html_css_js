@@ -1,0 +1,8 @@
+.myImg{
+    float: right;
+    padding: 10px;
+    border: 5px solid #eee;
+    margin: 10px;
+    max-width: 100%;
+
+}
