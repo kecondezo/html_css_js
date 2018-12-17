@@ -5,11 +5,60 @@
 }
 .divy{
     border: 1px dashed #222;
-    height: 200px;
+    height: 400px;
 }
 
 #block2{
     height: 70px;
     background-color: black;
     color: aliceblue;
+}
+.main{
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+.sidemenu{
+    float: right;
+    width: 40%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bgcolor{
+    background-color: green;
+    height: 100%;
+}
+
+.navbar{
+    color:green;
+}
+.navbar li {
+    display: inline-block;
+    height:50px;
+    line-height: 45px;
+    font-size: 18px;
+    border: 1px dotted #555;
+    border-bottom: 1px solid green;
+    min-width: 70px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: green;
+    color: white;
+}
+
+.navbar ul {
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
 }
