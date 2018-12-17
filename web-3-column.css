@@ -1,0 +1,83 @@
+.container{
+    width: 1080px;
+    background-color: #ddd;
+    margin: 0 auto;
+}
+.divy{
+    padding: 10px;
+}
+
+#block2{
+    height: 70px;
+    background-color: black;
+    color: aliceblue;
+}
+.main{
+    width: 60%;
+    float: left;
+    background-color: white;
+}
+.sidemenu{
+    float: right;
+    width: 40%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+.bgcolor{
+    background-color: skyblue;
+    height: 100%;
+}
+
+.navbar{
+    color:green;
+}
+.navbar li {
+    display: inline-block;
+    height:50px;
+    line-height: 45px;
+    font-size: 18px;
+    border: 1px dotted #555;
+    border-bottom: 1px solid green;
+    min-width: 70px;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    display: block;
+}
+
+.navbar a:hover{
+    background-color: green;
+    color: white;
+}
+
+.navbar ul {
+    background-color: black;
+    list-style: none;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+
+.col1{
+    background-color: aliceblue;
+    float: left;
+    width: 50%;
+}
+.col2{
+    display: inline-block;
+    width: 50%;
+}
+.col3{
+    float: right;
+    width: 33%;
+}
+
+.col1main{
+    float: left;
+    width: 67%;
+    background-color:green;
+}
